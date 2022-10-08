@@ -1,4 +1,5 @@
 import React from "react";
+import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -9,43 +10,61 @@ const Navbar = () => {
         backgroundSize: "cover",
       }}
     >
-      <nav className="w-[80%] mx-auto flex justify-between h-screen pt-5 text-white">
+      <nav className="w-[80%] mx-auto flex justify-between h-20 items-center  text-white">
         <div className="text-2xl font-bold">logo</div>
         <ul className="flex mt-1">
           <li>
-            <a className="py-2 px-3 mr-3" href="/home">
+            <a
+              className="hover:text-red-500 duration-200 py-2 px-3 mr-3"
+              href="/home"
+            >
               Home
             </a>
           </li>
           <li>
-            <a className="py-2 px-3 mr-3" href="/about">
+            <a
+              className="hover:text-red-500 duration-200 py-2 px-3 mr-3"
+              href="/about"
+            >
               About
             </a>
           </li>
           <li>
-            <a className="py-2 px-3 mr-3" href="/menu">
+            <a
+              className="hover:text-red-500 duration-200 py-2 px-3 mr-3"
+              href="/menu"
+            >
               Menu
             </a>
           </li>
           <li>
-            <a className="py-2 px-3 mr-3" href="/services">
+            <a
+              className="hover:text-red-500 duration-200 py-2 px-3 mr-3"
+              href="/services"
+            >
               Services
             </a>
           </li>
           <li>
-            <a className="py-2 px-3 mr-3" href="/blogs">
+            <a
+              className="hover:text-red-500 duration-200 py-2 px-3 mr-3"
+              href="/blogs"
+            >
               Blogs
             </a>
           </li>
         </ul>
         <ul className="flex">
           <li>
-            <a className="py-2 px-3 mr-3" href="/blogs">
-              Cart
+            <a className="" href="/cart">
+              <FaShoppingCart className="hover:text-red-500 text-2xl duration-200 mr-4" />
             </a>
           </li>
           <li>
-            <a className="py-2 px-3 mr-3" href="/blogs">
+            <a
+              className="py-2 px-3 mr-3 bg-red-500 hover:bg-red-500/80 rounded-[30px] duration-200"
+              href="/booking"
+            >
               Book a Table
             </a>
           </li>
