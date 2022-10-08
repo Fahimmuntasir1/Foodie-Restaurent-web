@@ -1,14 +1,14 @@
-import React from 'react';
-import Catagori from './Catagori/Catagori';
-import Footer from './Footer/Footer';
+import React from "react";
+import Category from "./Catagori/Category";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
-    return (
-        <div>
-            <Catagori></Catagori>
-            <Footer></Footer>
-        </div>
-    );
+  return (
+    <div>
+      <Category></Category>
+      <Footer></Footer>
+    </div>
+  );
 };
 
 export default Home;
