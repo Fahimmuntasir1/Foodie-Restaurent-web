@@ -1,9 +1,9 @@
 import React from "react";
-import "./Category.css";
 import burger from "../../../assests/burger.png";
 import desert from "../../../assests/desert.png";
 import frute from "../../../assests/frute.png";
 import vegetable from "../../../assests/vegetable.png";
+
 const Category = () => {
   return (
     <section>
