@@ -1,0 +1,20 @@
+.underline-effect {
+  display: inline-block;
+  color: inherit;
+  padding-bottom: 0.25rem; /* defines the space between text and underline */
+  position: relative;
+}
+
+.underline-effect::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.25s ease-in;
+}
+.underline-effect:hover::before {
+  width: 76%;
+}

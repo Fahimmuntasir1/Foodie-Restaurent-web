@@ -7,8 +7,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <Category></Category>
-      <Footer></Footer>
+      {/* <Category></Category>
+      <Footer></Footer> */}
     </div>
   );
 };
