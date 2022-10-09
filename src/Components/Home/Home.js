@@ -1,12 +1,14 @@
 import React from "react";
-import Category from "./Catagori/Category";
+import Category from "./Category/Category";
 import Footer from "./Footer/Footer";
+import Navbar from "./Navbar/Navbar";
 
 const Home = () => {
   return (
     <div>
-      <Category></Category>
-      <Footer></Footer>
+      <Navbar />
+      {/* <Category></Category>
+      <Footer></Footer> */}
     </div>
   );
 };
