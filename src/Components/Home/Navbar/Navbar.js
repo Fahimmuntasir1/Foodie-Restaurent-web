@@ -16,59 +16,58 @@ const Navbar = () => {
         <div className="flex">
         <ul className="flex mt-1">
           <li>
-            <a
+            <Link
               className="hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-              href="/home"
+              to="/home"
             >
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-              href="/about"
+              to="/about"
             >
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-              href="/menu"
+              to="/menu"
             >
               Menu
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-              href="/services"
+              to="/services"
             >
               Services
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className="hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-              href="/blogs"
+              to="/blogs"
             >
               Blogs
-            </a>
+            </Link>
           </li>
         </ul>
         <ul className="flex items-center justify-center">
           <li>
-            <a className="" href="/cart">
-              <FaShoppingCart className="hover:text-orange-500 text-2xl duration-200 mr-4" />
-            </a>
-          </li>
-          <li>
-            <a
-              className="py-2 px-3 mr-3 bg-orange-500 hover:bg-orange-500/80 rounded-[30px] duration-200"
-              href="/booking"
+            <Link
+            to="/booking"              className="py-2 px-3 mr-3 bg-orange-500 hover:bg-orange-500/80 rounded-[30px] duration-200"
             >
               Book a Table
-            </a>
+            </Link>
+          </li>
+          <li>
+            <Link className="" to="/cart">
+              <FaShoppingCart className="hover:text-orange-500 text-2xl duration-200 mr-4" />
+            </Link>
           </li>
           <li>
             <Link to="/" >
