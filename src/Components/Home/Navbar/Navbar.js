@@ -2,20 +2,18 @@ import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import videoBg from "../../../assests/Ejemplo de Food Reel.mp4";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <header
-      className="h-screen"
-      style={{
-        backgroundImage: `url("https://image.shutterstock.com/image-photo/close-braised-beef-short-rib-260nw-530248354.jpg")`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
+      className="h-screen w-full"
     >
-      <nav className="lg:w-[80%] md:w-[80%] w-[95%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
+      <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.18)]"></div>
+      <video src={videoBg} autoPlay loop muted />
+      <nav className="absolute top-0 left-[10%] right-[10%] lg:w-[80%] md:w-[80%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
         <div className="text-3xl font-bold">Foodie</div>
         <div className="flex justify-center items-center ">
           <ul
