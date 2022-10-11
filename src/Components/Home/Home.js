@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
+import Category from "./Category/Category";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      {/* <Main/> */}
-      {/* <Category/>
-      <Footer/> */}
+      <Category/>
+      <Footer/>
     </div>
   );
 };
