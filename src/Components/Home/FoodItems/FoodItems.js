@@ -9,9 +9,9 @@ const FoodItems = () => {
         .then(data => setFoods(data))
     }, [])
     return (
-       <div>
+       <div className="grid grid-cols-3 gap-7">
        {
-        foods.map(food => <Food food={food} id={food.id}></Food>)
+        foods.slice(0,10).map(food => <Food food={food} id={food.id}></Food>)
        }
        </div>
     );
