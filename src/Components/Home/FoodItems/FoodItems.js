@@ -4,7 +4,7 @@ import Food from '../Food/Food';
 const FoodItems = () => {
     const [foods, setFoods] = useState([])
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/photos')
+        fetch('fakedata.json')
         .then(res => res.json())
         .then(data => setFoods(data))
     }, [])

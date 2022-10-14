@@ -9,7 +9,7 @@ const Food = ({ food }) => {
         <img
           src={url}
           alt="random image"
-          class="object-cover object-center rounded-lg shadow-md"
+          class="object-cover object-center rounded-lg shadow-md h-72"
         />
 
         <div class="relative px-4 -mt-16  ">
