@@ -77,8 +77,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <div class="dropdown dropdown-end">
-                <label tabindex="0">
+              <div className="dropdown dropdown-end">
+                <label tabIndex="0">
                   <img
                     className="rounded-[50%] cursor-pointer border-orange-500 border-4 hover:border-orange-500/80"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTJJjceD7Xn1-ZIEoxBUHl1f0lFXIi6daOmQ&usqp=CAU"
@@ -88,13 +88,13 @@ const Navbar = () => {
                   />
                 </label>
                 <ul
-                  tabindex="0"
-                  class="dropdown-content menu mt-3 p-2 shadow bg-white rounded-box w-52"
+                  tabIndex="0"
+                  className="dropdown-content menu mt-3 p-2 shadow bg-white rounded w-52"
                 >
                   <li>
                     <Link
                       to="/"
-                      className="text-gray-800 hover:text-orange-500 "
+                      className="text-gray-800  hover:text-orange-500 "
                     >
                       Sign Up
                     </Link>
@@ -102,7 +102,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/"
-                      className="text-gray-800 hover:text-orange-500 "
+                      className="text-gray-800  hover:text-orange-500 "
                     >
                       Log In
                     </Link>

@@ -10,7 +10,7 @@ const Category = () => {
       <h2 className="title text-[26px] font-semibold text-orange-500">
         Top Categories
       </h2>
-      <div className="flex flex-wrap category justify-between mt-6 mb-20">  
+      <div className="flex flex-wrap category justify-between mt-6 mb-20">
         <div className="flex bg-[#ff74115d] hover:bg-orange-400 duration-200 cursor-pointer items-center justify-center/ p-[20px] w-[230px] rounded-[7px] font-semibold text-[22px]">
           <h4>Fast Food</h4>
           <img className="ml-[8px] h-[60px] w-[60px]" src={burger} alt="" />
