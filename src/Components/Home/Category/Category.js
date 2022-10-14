@@ -3,6 +3,7 @@ import burger from "../../../assests/burger.png";
 import desert from "../../../assests/desert.png";
 import frute from "../../../assests/frute.png";
 import vegetable from "../../../assests/vegetable.png";
+import FoodItems from "../FoodItems/FoodItems";
 
 const Category = () => {
   return (
@@ -28,6 +29,7 @@ const Category = () => {
           <img className="ml-[8px] h-[60px] w-[60px]" src={vegetable} alt="" />
         </div>
       </div>
+      <FoodItems/>
     </section>
   );
 };
