@@ -1,93 +1,157 @@
 [
   {
-    "albumId": 1,
     "id": 1,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/92c952"
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 2,
-    "title": "reprehenderit est deserunt velit ipsam",
-    "url": "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/771796"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 3,
-    "title": "officia porro iure quia iusto qui ipsa ut modi",
-    "url": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/24f355"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 4,
-    "title": "culpa odio esse rerum omnis laboriosam voluptate repudiandae",
-    "url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/d32776"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 5,
-    "title": "natus nisi omnis corporis facere molestiae rerum in",
-    "url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/f66b97"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 6,
-    "title": "accusamus ea aliquid et amet sequi nemo",
-    "url": "https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/56a8c2"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 7,
-    "title": "officia delectus consequatur vero aut veniam explicabo molestias",
-    "url": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/b0f7cc"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 8,
-    "title": "aut porro officiis laborum odit ea laudantium corporis",
-    "url": "https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/54176f"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 9,
-    "title": "qui eius qui autem sed",
-    "url": "https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/51aa97"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 10,
-    "title": "beatae et provident et ut vel",
-    "url": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/810b14"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 11,
-    "title": "nihil at amet non hic quia qui",
-    "url": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/1ee8a4"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 12,
-    "title": "mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores",
-    "url": "https://images.pexels.com/photos/718742/pexels-photo-718742.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/66b7d2"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+
   {
-    "albumId": 1,
     "id": 13,
-    "title": "repudiandae iusto deleniti rerum",
-    "url": "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "thumbnailUrl": "https://via.placeholder.com/150/197d29"
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ]
