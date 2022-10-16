@@ -11,7 +11,7 @@ const FoodItems = () => {
     return (
        <div className="grid grid-cols-3 gap-7">
        {
-        foods.slice(0,10).map(food => <Food food={food} id={food.id}></Food>)
+        foods.slice(0,9).map(food => <Food food={food} id={food.id}></Food>)
        }
        </div>
     );
