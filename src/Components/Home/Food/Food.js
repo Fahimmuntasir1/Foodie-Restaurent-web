@@ -2,7 +2,7 @@
 import React from "react";
 
 const Food = ({ food }) => {
-  const { title, url } = food;
+  const { title, url, ratings, rated, price } = food;
   return (
     <div class="wrapper flex place-items-center antialiased text-gray-900">
       <div>
@@ -24,12 +24,12 @@ const Food = ({ food }) => {
               <h4>{title.slice(0, 35)}...</h4>
             </a>
 
-            <div class="mt-1 text-orange-500">$180</div>
+            <div class="mt-1 text-orange-500">${price}</div>
             <div class="mt-1">
               <span class="text-teal-600 text-md font-semibold">
-                4/5 ratings{" "}
+                {ratings} ratings{" "}
               </span>
-              <span class="text-sm text-gray-600">(234 rated)</span>
+              <span class="text-sm text-gray-600">({rated} rated)</span>
             </div>
           </div>
         </div>
