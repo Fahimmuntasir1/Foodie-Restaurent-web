@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "dessert and sweets",
     "tags": "burger, fast food",
     "price": "290",
     "ratings": "4.7",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "fruits",
     "tags": "burger, fast food",
     "price": "290",
     "ratings": "4.7",
@@ -50,7 +50,272 @@
   {
     "id": 5,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 7,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
     "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 8,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 9,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 10,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 11,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 12,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 13,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 1,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 3,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 4,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "tags": "burger, fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 5,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "dessert and sweets",
     "tags": "burger, fast food",
     "price": "290",
     "ratings": "4.7",
@@ -86,7 +351,7 @@
   {
     "id": 8,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "dessert and sweets",
     "tags": "burger, fast food",
     "price": "290",
     "ratings": "4.7",
@@ -98,7 +363,7 @@
   {
     "id": 9,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "dessert and sweets",
     "tags": "burger, fast food",
     "price": "290",
     "ratings": "4.7",
