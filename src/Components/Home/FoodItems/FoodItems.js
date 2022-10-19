@@ -17,7 +17,7 @@ const FoodItems = () => {
       </div>
        
       <div className='text-center my-9'>
-      <button className='bg-orange-500 py-3 px-8 text-white hover:bg-transparent border-2 border-orange-500 hover:text-black duration-300'>More Items</button>
+      <button className='text-white p-3 px-5 text-xl mr-3 bg-orange-500 mt-5 rounded hover:bg-orange-600'>Load More</button>
       </div>
        </div>
     );
