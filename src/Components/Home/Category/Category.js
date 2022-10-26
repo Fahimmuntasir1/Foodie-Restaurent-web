@@ -49,7 +49,6 @@ const Category = () => {
           <img className="ml-[8px] h-[40px] w-[40px]" src={vegetable} alt="" />
         </Link>
       </div>
-      <FoodItems/>
     </section>
   );
 };

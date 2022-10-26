@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.18)]"></div>
       <video src={videoBg} autoPlay loop muted />
       <nav className="absolute top-0 left-[10%] right-[10%] lg:w-[80%] md:w-[80%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
-        <div className="text-3xl font-bold">Foodie</div>
+        <Link to="/" className="text-3xl font-bold">Foodie</Link>
         <div className="flex justify-center items-center ">
           <ul
             className={`lg:flex md:flex lg:static md:static items-center block text-center absolute z-10 left-0  ${
