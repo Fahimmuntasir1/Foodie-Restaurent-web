@@ -22,6 +22,72 @@
   },
 
   {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fast food",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "vegetable",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "vegetable",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
+    "id": 2,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "vegetable",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+
+  {
     "id": 3,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
     "category": "fruits",
@@ -35,7 +101,7 @@
   {
     "id": 4,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "vegetable",
     "price": "290",
     "ratings": "4.7",
     "rated": "486",
@@ -64,11 +130,61 @@
     "available": "true",
     "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "fruits",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "drink",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "drink",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": 6,
+    "title": "accusamus beatae ad facilis cum similique qui sunt",
+    "category": "drink",
+    "price": "290",
+    "ratings": "4.7",
+    "rated": "486",
+    "available": "true",
+    "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
 
   {
     "id": 7,
     "title": "accusamus beatae ad facilis cum similique qui sunt",
-    "category": "fast food",
+    "category": "drink",
     "price": "290",
     "ratings": "4.7",
     "rated": "486",

@@ -1,13 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import UseFoodItems from '../../../Hooks/UseFoodItems';
 import Food from '../Food/Food';
 
 const FoodItems = () => {
-    const [foods, setFoods] = useState([])
-    useEffect(() => {
-        fetch('fakedata.json')
-        .then(res => res.json())
-        .then(data => setFoods(data))
-    }, [])
+    const [foods] = UseFoodItems([])
     return (
        <div>
       <div className="grid grid-cols-3 gap-7">
