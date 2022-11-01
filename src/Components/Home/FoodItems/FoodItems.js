@@ -5,7 +5,7 @@ import Food from '../Food/Food';
 const FoodItems = () => {
     const [foods] = UseFoodItems([])
     return (
-       <div>
+       <div className='w-[80%] mx-auto'>
       <div className="grid grid-cols-3 gap-7">
       {
         foods.slice(0,9).map(food => <Food food={food} id={food.id}></Food>)
