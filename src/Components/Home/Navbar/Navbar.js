@@ -2,21 +2,19 @@ import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import { RiCloseFill, RiMenu3Fill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import videoBg from "../../../assests/Ejemplo de Food Reel.mp4";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <header
-      className="h-screen"
-      style={{
-        backgroundImage: `url("https://image.shutterstock.com/image-photo/close-braised-beef-short-rib-260nw-530248354.jpg")`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
+      className="h-screen w-full"
     >
-      <nav className="lg:w-[80%] md:w-[80%] w-[95%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
-        <div className="text-3xl font-bold">Foodie</div>
+      <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.18)]"></div>
+      <video src={videoBg} autoPlay loop muted />
+      <nav className="absolute top-0 left-[10%] right-[10%] lg:w-[80%] md:w-[80%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
+        <Link to="/" className="text-3xl font-bold">Foodie</Link>
         <div className="flex justify-center items-center ">
           <ul
             className={`lg:flex md:flex lg:static md:static items-center block text-center absolute z-10 left-0  ${
@@ -68,7 +66,7 @@ const Navbar = () => {
             <li>
               <Link
                 to="/booking"
-                className="py-2 px-3 mr-3 text-center hidden lg:block bg-orange-500 hover:bg-orange-500/80 rounded-[30px] duration-200"
+                className="py-2 px-3 mr-3 text-center hidden lg:block bg-orange-500 hover:bg-orange-500/75 rounded-[30px] duration-200"
               >
                 Book a Table
               </Link>
@@ -79,8 +77,8 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <div class="dropdown dropdown-end">
-                <label tabindex="0">
+              <div className="dropdown dropdown-end">
+                <label tabIndex="0">
                   <img
                     className="rounded-[50%] cursor-pointer border-orange-500 border-4 hover:border-orange-500/80"
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTJJjceD7Xn1-ZIEoxBUHl1f0lFXIi6daOmQ&usqp=CAU"
@@ -90,13 +88,13 @@ const Navbar = () => {
                   />
                 </label>
                 <ul
-                  tabindex="0"
-                  class="dropdown-content menu mt-3 p-2 shadow bg-white rounded-box w-52"
+                  tabIndex="0"
+                  className="dropdown-content menu mt-3 p-2 shadow bg-white rounded w-52"
                 >
                   <li>
                     <Link
                       to="/"
-                      className="text-gray-800 hover:text-orange-500 "
+                      className="text-gray-800  hover:text-orange-500 "
                     >
                       Sign Up
                     </Link>
@@ -104,7 +102,7 @@ const Navbar = () => {
                   <li>
                     <Link
                       to="/"
-                      className="text-gray-800 hover:text-orange-500 "
+                      className="text-gray-800  hover:text-orange-500 "
                     >
                       Log In
                     </Link>
@@ -124,6 +122,13 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
+      <div className="absolute w-[80%] ml-auto mr-auto left-0 right-0 text-center top-[40%]">
+      <h2 className="text-white lg:text-6xl text-4xl font-bold uppercase myFont">Family Owned. Locally Made. Community Focused.</h2> 
+      <div className="flex  justify-center flex-wrap">
+      <button className="text-white p-3 px-5 text-xl mr-3 bg-orange-500 mt-5 rounded hover:bg-orange-500/75">Book a Table</button>
+      <button className="text-white p-3 px-5 text-xl bg-orange-500 mt-5 rounded hover:bg-orange-500/75">Order from Home</button>
+      </div>
+      </div>
     </header>
   );
 };
