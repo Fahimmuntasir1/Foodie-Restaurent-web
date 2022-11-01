@@ -1,14 +1,10 @@
 import React from "react";
-import Category from "./Category/Category";
-import Navbar from "./Navbar/Navbar";
-import Footer from "./Footer/Footer";
+import FoodItems from "./FoodItems/FoodItems";
 
 const Home = () => {
   return (
     <div>
-      <Navbar />
-      <Category/>
-      <Footer/>
+      <FoodItems/>
     </div>
   );
 };
