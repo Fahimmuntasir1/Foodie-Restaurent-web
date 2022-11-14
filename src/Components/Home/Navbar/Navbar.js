@@ -24,7 +24,7 @@ const Navbar = () => {
             <li>
               <Link
                 className="underline-effect hover:text-orange-500 duration-200 py-2 px-3 mr-3"
-                to="/home"
+                to="/"
               >
                 Home
               </Link>
