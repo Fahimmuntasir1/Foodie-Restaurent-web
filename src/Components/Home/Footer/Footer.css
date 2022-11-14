@@ -1,0 +1,21 @@
+.underline-effect-footer {
+    display: inline-block;
+    color: inherit;
+    padding-bottom: 0.25rem; /* defines the space between text and underline */
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .underline-effect-footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: hsl(215 28% 17%);
+    transition: width 0.25s ease-in;
+  }
+  .underline-effect-footer:hover::before {
+    width: 100%;
+  }
