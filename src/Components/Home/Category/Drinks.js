@@ -8,7 +8,7 @@ const Drinks = () => {
   console.log(match);
   return (
     <>
-      <div className="grid grid-cols-3 gap-7 w-[80%] mx-auto ">
+      <div className="grid grid-cols-3 gap-7 mx-auto ">
         {match.slice(0, 9).map((food) => (
           <Food food={food} id={food.id}></Food>
         ))}

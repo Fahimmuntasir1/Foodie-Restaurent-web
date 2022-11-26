@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import burger from "../../../assests/burger.png";
 import desert from "../../../assests/desert.png";
 import frute from "../../../assests/frute.png";
 import vegetable from "../../../assests/vegetable.png";
-import FoodItems from "../FoodItems/FoodItems";
 
 const Category = () => {
   return (
@@ -49,7 +48,7 @@ const Category = () => {
           <img className="ml-[8px] h-[40px] w-[40px]" src={vegetable} alt="" />
         </Link>
       </div>
-      <FoodItems />
+      <Outlet />
     </section>
   );
 };
