@@ -35,10 +35,10 @@ const Category = () => {
           <img className="ml-[8px] h-[40px] w-[40px]" src={desert} alt="" />
         </Link>
         <Link
-          to="/fruitItems"
+          to="/fruits"
           className="flex bg-[#ff74115d] hover:bg-orange-400 duration-200 items-center justify-center p-[20px] w-[200px] rounded-[7px] font-semibold text-[22px]"
         >
-          <h4>Fruit Item</h4>
+          <h4>Fruits</h4>
           <img className="ml-[8px] h-[40px] w-[40px]" src={frute} alt="" />
         </Link>
         <Link
