@@ -1,10 +1,10 @@
 import React from "react";
-import FoodItems from "./FoodItems/FoodItems";
+import Category from "./Category/Category";
 
 const Home = () => {
   return (
     <div>
-      <FoodItems/>
+      <Category />
     </div>
   );
 };

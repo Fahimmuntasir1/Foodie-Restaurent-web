@@ -3,15 +3,17 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  // const year = getFullYear ()
   return (
     <div>
       <footer class="footer p-10 bg-base-200 text-base-content">
         <div>
           <h2 className="text-3xl font-bold">Foodie</h2>
           <p>
-            ACME Industries Ltd.
+            Foodie Restaurant.
             <br />
-            Providing reliable tech since 1992
+            &copy; All Right Reserved by Foodie Restaurant{" "}
+            {new Date().getFullYear()}
           </p>
         </div>
         <div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import burger from "../../../assests/burger.png";
 import desert from "../../../assests/desert.png";
 import frute from "../../../assests/frute.png";
@@ -34,10 +34,10 @@ const Category = () => {
           <img className="ml-[8px] h-[40px] w-[40px]" src={desert} alt="" />
         </Link>
         <Link
-          to="/fruitItems"
+          to="/fruits"
           className="flex bg-[#ff74115d] hover:bg-orange-400 duration-200 items-center justify-center p-[20px] w-[200px] rounded-[7px] font-semibold text-[22px]"
         >
-          <h4>Fruit Item</h4>
+          <h4>Fruits</h4>
           <img className="ml-[8px] h-[40px] w-[40px]" src={frute} alt="" />
         </Link>
         <Link
@@ -48,6 +48,7 @@ const Category = () => {
           <img className="ml-[8px] h-[40px] w-[40px]" src={vegetable} alt="" />
         </Link>
       </div>
+      <Outlet />
     </section>
   );
 };
