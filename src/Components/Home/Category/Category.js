@@ -11,7 +11,7 @@ const Category = () => {
       <h2 className="title text-[26px] font-semibold text-orange-500">
         Top Categories
       </h2>
-      <div className="flex flex-wrap text-center category justify-between mt-6 mb-20">
+      <div className="flex w-[100%] text-center category justify-between mt-6 mb-20">
         <Link
           to="/fastFood"
           className="flex bg-[#ff74115d] hover:bg-orange-400 duration-200 items-center justify-center p-[20px] w-[200px] rounded-[7px] font-semibold text-[22px]"
