@@ -4,7 +4,7 @@ import React from "react";
 const Food = ({ food }) => {
   const { title, url, ratings, rated, price } = food;
   return (
-    <div className="wrapper flex place-items-center antialiased text-gray-900">
+    <div className="wrapper flex justify-center place-items-center antialiased text-gray-900">
       <div>
         <img
           src={url}

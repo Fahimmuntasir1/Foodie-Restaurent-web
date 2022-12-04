@@ -7,7 +7,7 @@ const FastFood = () => {
   const match = foods.filter((food) => food.category.includes("fast food"));
   return (
     <>
-      <div className="grid lg:grid-cols-3 gap-7 mx-auto ">
+      <div className="grid lg:grid-cols-3 gap-7 mx-auto w-full">
         {match.slice(0, 9).map((food) => (
           <Food food={food} id={food.id}></Food>
         ))}

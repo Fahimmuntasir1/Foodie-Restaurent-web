@@ -7,7 +7,7 @@ const Desserts = () => {
   const match = foods.filter((food) =>
     food.category.includes("dessert and sweets")
   );
-  console.log(match);
+
   return (
     <div>
       <div className="grid lg:grid-cols-3 gap-7 mx-auto ">

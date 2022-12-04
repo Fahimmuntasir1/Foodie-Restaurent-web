@@ -5,7 +5,6 @@ import Food from "../Food/Food";
 const Fruits = () => {
   const [foods] = UseFoodItems([]);
   const match = foods.filter((food) => food.category.includes("fruits"));
-  console.log(foods);
   return (
     <>
       <div className="grid lg:grid-cols-3 gap-7 mx-auto ">
