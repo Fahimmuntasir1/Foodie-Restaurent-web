@@ -7,7 +7,7 @@ const Fruits = () => {
   const match = foods.filter((food) => food.category.includes("fruits"));
   return (
     <>
-      <div className="grid lg:grid-cols-3 gap-7 mx-auto ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-7 mx-auto ">
         {match.slice(0, 9).map((food) => (
           <Food food={food} id={food.id}></Food>
         ))}
