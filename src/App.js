@@ -7,6 +7,7 @@ import Drinks from "./Components/Home/Category/Drinks";
 import FastFood from "./Components/Home/Category/FastFood";
 import Fruits from "./Components/Home/Category/Fruits";
 import Vegetables from "./Components/Home/Category/Vegetables";
+import FoodItems from "./Components/Home/FoodItems/FoodItems";
 import Footer from "./Components/Home/Footer/Footer";
 import Home from "./Components/Home/Home";
 import Navbar from "./Components/Home/Navbar/Navbar";
@@ -27,6 +28,7 @@ function App() {
           <Route path="/drinks" element={<Drinks />} />
         </Route>
         <Route path="/about" element={<About />} />
+        <Route path="/foods/:id" element={<FoodItems />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blogs" element={<Blogs />} />
