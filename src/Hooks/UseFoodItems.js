@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const UseFoodItems = () => {
   const [foods, setFoods] = useState([]);
   useEffect(() => {
-    fetch("fakedata.json")
+    fetch("http://localhost:5000/foods")
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);

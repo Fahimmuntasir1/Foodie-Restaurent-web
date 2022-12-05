@@ -1,8 +1,9 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Food = ({ food }) => {
-  const { title, url, ratings, rated, price } = food;
+  const { title, url, ratings, rated, price, _id } = food;
   return (
     <div className="wrapper flex justify-center place-items-center antialiased text-gray-900">
       <div>
@@ -20,9 +21,13 @@ const Food = ({ food }) => {
               </span>
             </div>
 
-            <a className="mt-1 text-xl font-semibold uppercase" href="/">
+            <Link
+              to={`/foods/${_id}`}
+              className="mt-1 text-xl font-semibold uppercase"
+              href="/"
+            >
               <h4>{title.slice(0, 35)}...</h4>
-            </a>
+            </Link>
 
             <div className="mt-1 text-orange-500">${price}</div>
             <div className="mt-1">
