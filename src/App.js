@@ -14,6 +14,8 @@ import Navbar from "./Components/Home/Navbar/Navbar";
 import Menu from "./Components/Menu/Menu";
 import NotFound from "./Components/NotFound/NotFound";
 import Services from "./Components/Services/Services";
+import LogIn from "./Components/SignUpLogIn/LogIn";
+import SignUp from "./Components/SignUpLogIn/SignUp";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/menu" element={<Menu />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/signUp" element={<SignUp />} />
+        <Route path="/logIn" element={<LogIn />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
