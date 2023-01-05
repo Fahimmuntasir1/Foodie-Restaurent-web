@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const UseFoodItems = () => {
   const [foods, setFoods] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/foods")
+    fetch("https://foodie-restaurent.onrender.com/foods")
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);
