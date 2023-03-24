@@ -1,0 +1,7 @@
+.background {
+    background-image: url("../../assests/brooke-lark-HlNcigvUi4Q-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: blur(8px);
+    -webkit-filter: blur(8px) */
+}

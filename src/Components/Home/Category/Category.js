@@ -13,7 +13,7 @@ const Category = () => {
       </h2>
       <div className="flex w-[100%] text-center category justify-between mt-6 mb-20">
         <NavLink
-          to="/fastFood"
+          to="/"
           style={({ isActive }) =>
             isActive
               ? { backgroundColor: "#E6751F" }

@@ -8,20 +8,19 @@ import "./Navbar.css";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="h-screen w-full">
-      <div className="absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.18)]"></div>
-      <video src={videoBg} autoPlay loop muted />
-      <nav className="absolute top-0 left-[10%] right-[10%] lg:w-[80%] md:w-[80%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
+    <header className="w-full">
+      <div className=" top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.18)]"></div>
+      {/* <video src={videoBg} autoPlay loop muted /> */}
+      <nav className=" top-0 left-[10%] right-[10%] lg:w-[80%] md:w-[80%] h-24 mx-auto flex justify-between items-center text-white lg:text-xl md:text-xl text-2xl">
         <Link to="/" className="text-3xl font-bold">
           Foodie
         </Link>
         <div className="flex justify-center items-center ">
           <ul
-            className={`lg:flex md:flex lg:static md:static items-center block text-center absolute z-10 left-0  ${
-              open
+            className={`lg:flex md:flex lg:static md:static items-center block text-center absolute z-10 left-0  ${open
                 ? "top-[80px] duration-500 ease backdrop-blur-xl bg-black/30 w-full h-screen"
                 : "top-[-260px]"
-            }`}
+              }`}
           >
             <li>
               <Link
@@ -124,19 +123,7 @@ const Navbar = () => {
           </ul>
         </div>
       </nav>
-      <div className="absolute w-[80%] ml-auto mr-auto left-0 right-0 text-center top-[40%]">
-        <h2 className="text-white lg:text-6xl text-4xl font-bold uppercase myFont">
-          Family Owned. Locally Made. Community Focused.
-        </h2>
-        <div className="flex  justify-center flex-wrap">
-          <button className="text-white p-3 px-5 text-xl mr-3 bg-orange-500 mt-5 rounded hover:bg-orange-500/75">
-            Book a Table
-          </button>
-          <button className="text-white p-3 px-5 text-xl bg-orange-500 mt-5 rounded hover:bg-orange-500/75">
-            Order from Home
-          </button>
-        </div>
-      </div>
+      
     </header>
   );
 };
