@@ -66,6 +66,7 @@ const LogIn = () => {
                 <input
                   className="py-2 mb-2 cursor-pointer w-full rounded-md text-white bg-orange-400 hover:bg-transparent border-2 border-orange-400 hover:text-orange-400 transition-all duration-300"
                   type="submit"
+                  value={"LogIn"}
                 />
               </form>
               <p className="text-xs text-center">
